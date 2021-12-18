@@ -1,0 +1,24 @@
+{
+    "name": "vendor/design-patterns",
+    "description": "design patterns by php8 v1.0",
+    "type": "project",
+    "license": "MTI",
+    "autoload": {
+        "psr-4": {
+            "Vendor\\DesignPatterns\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mustafa Goda",
+            "email": "mostafagoda199@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    },
+    "require": {
+        "predis/predis": "2.0.x-dev"
+    }
+}
