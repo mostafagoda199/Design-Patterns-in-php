@@ -1,6 +1,8 @@
 <?php
 
-namespace Vendor\DesignPatterns\Creational\singleton\Classes;
+namespace Vendor\DesignPatterns\Creational\singleton\classes;
+
+use Exception;
 
 class Log
 {
@@ -13,7 +15,7 @@ class Log
     {
         try{
             echo 'logging';
-        }catch(\Exception $e){
+        }catch(Exception $e){
             die($e->getMessage());
         }
     }

@@ -19,6 +19,7 @@
         "phpunit/phpunit": "^9"
     },
     "require": {
-        "predis/predis": "2.0.x-dev"
+        "predis/predis": "2.0.x-dev",
+        "ext-memcache": "*"
     }
 }
