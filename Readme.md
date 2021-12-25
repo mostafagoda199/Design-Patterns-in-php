@@ -1,4 +1,4 @@
-              Software Design Principles
+# Software Design Principles
 
 ### Solid Principle
 
@@ -34,3 +34,8 @@
    Only abstract away things that vary in your application. For example, if a Mailer class will never change,
    don’t get hung up on writing a lot of abstraction around that: focus on what will change.
 
+## Design Patterns: 
+ Creational | Behavior | Structural 
+--- | --- | --- 
+[Singleton](src/Creational/singleton/readme.md) | [Strategy](src/Behavior/strategy/readme.md) | 
+[Factory Method](src/Creational/FactoryMethod/readme.md) | [Chains of Responsibility](src/Behavior/ChainsOfResponsibility/readme.md) | 
