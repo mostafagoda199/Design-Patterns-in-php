@@ -5,13 +5,16 @@
     classes work together that couldn’t otherwise because of
     incompatible interfaces.
 
+_____
+
+# Graph
 
 ```mermaid
-flowchart TB;
-    Paymob
-    subgraph Paymob
-    Paytab
-    end
+graph TB;
+Paymob
+subgraph Paymob;
+Paytab
+end
 ```
 -----------------------------------------
 **Applicability**

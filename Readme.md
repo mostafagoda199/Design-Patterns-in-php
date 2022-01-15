@@ -37,5 +37,5 @@
 ## Design Patterns: 
  Creational | Behavior | Structural 
 --- | --- | --- 
-[Singleton](src/Creational/singleton/readme.md) | [Strategy](src/Behavior/strategy/readme.md) | 
+[Singleton](src/Creational/singleton/readme.md) | [Strategy](src/Behavior/strategy/readme.md) | [Adapter](src/structural/adapter/readme.md)
 [Factory Method](src/Creational/FactoryMethod/readme.md) | [Chains of Responsibility](src/Behavior/ChainsOfResponsibility/readme.md) | 
