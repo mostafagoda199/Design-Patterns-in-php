@@ -2,7 +2,7 @@
 
 namespace Vendor\DesignPatterns\Behavior\strategy\Classes;
 
-use Vendor\DesignPatterns\Behavior\Strategy\Interfaces\ICache;
+use Vendor\DesignPatterns\Behavior\strategy\Interfaces\ICache;
 
 class FileCache implements ICache
 {
@@ -43,10 +43,10 @@ class FileCache implements ICache
 
     /**
      * @param string $key
-     * @return string
+     * @return string|false
      * @auther Mustafa Goda
      */
-    public function get(string $key): string
+    public function get(string $key): string|false
     {
         if ($this->checkIfExist($key)){
             return file_get_contents($this->getBaseDir().$this->getFileNameFromKey($key));

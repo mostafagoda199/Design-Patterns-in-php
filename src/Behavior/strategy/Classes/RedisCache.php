@@ -2,7 +2,7 @@
 
 namespace Vendor\DesignPatterns\Behavior\strategy\Classes;
 
-use Vendor\DesignPatterns\Behavior\Strategy\Interfaces\ICache;
+use Vendor\DesignPatterns\Behavior\strategy\Interfaces\ICache;
 
 class RedisCache implements ICache
 {

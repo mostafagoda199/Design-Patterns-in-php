@@ -9,7 +9,7 @@ class MustBeAdminUserHandler extends AbstractHandler
     /**
      * @throws Exception
      */
-    public function handler(Request $request): ?string
+    public function handler(Request $request): bool|string
     {
         if (empty($request->getIsAdmin())) {
             return 'Must be admin user';

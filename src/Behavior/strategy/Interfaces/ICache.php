@@ -14,10 +14,10 @@ interface ICache
 
     /**
      * @param string $key
-     * @return mixed
+     * @return string|false
      * @auther Mustafa Goda
      */
-    public function get(string $key): mixed;
+    public function get(string $key): string|false;
 
     /**
      * @param string $key

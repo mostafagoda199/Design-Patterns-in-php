@@ -14,9 +14,9 @@ interface IHandler
 
     /**
      * @param Request $request
-     * @return string|null
+     * @return bool|string
      */
-    public function handler(Request $request): ?string;
+    public function handler(Request $request): bool|string;
 
     /**
      * @param Request $request

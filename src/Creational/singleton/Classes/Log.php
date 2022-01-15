@@ -11,13 +11,12 @@ class Log
      */
     private static Log $instance;
 
+    /**
+     * @throws Exception
+     */
     public function __construct()
     {
-        try{
-            echo 'logging';
-        }catch(Exception $e){
-            die($e->getMessage());
-        }
+        echo 'logging';
     }
 
     /**

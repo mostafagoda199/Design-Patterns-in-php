@@ -1,5 +1,7 @@
 <?php
 
+namespace behavior;
+
 use PHPUnit\Framework\TestCase;
 use Vendor\DesignPatterns\Behavior\strategy\Classes\Cache;
 use Vendor\DesignPatterns\Behavior\strategy\Classes\FileCache;

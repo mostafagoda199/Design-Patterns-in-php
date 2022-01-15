@@ -12,7 +12,7 @@ is behavior design pattern that let you define a family of algorithms, put each 
 `
 *****************
 
-###From:
+### From:
 
 **Design Principle**
 `identify aspects in your code what vary and sperate it from stay the same.` 
