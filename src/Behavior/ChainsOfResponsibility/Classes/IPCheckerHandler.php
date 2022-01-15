@@ -11,7 +11,7 @@ class IPCheckerHandler extends AbstractHandler
     /**
      * @throws Exception
      */
-    public function handler(Request $request): ?string
+    public function handler(Request $request): bool|string
     {
         if (in_array($request->getIp(), self::BANNED_IPS)) {
            return 'this IP is Ban';

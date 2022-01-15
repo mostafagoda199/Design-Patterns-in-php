@@ -8,12 +8,9 @@ require '../../../vendor/autoload.php';
 $factoryTax = new ExcludedTaxFactory();
 
 $createdTax = $factoryTax->createTax();
-
-var_dump($createdTax->calculateTax(100,19));
-
+var_dump($createdTax->createTax(100,19));
 
 $factoryTax = new IncludedTaxFactory();
 
 $createdTax = $factoryTax->createTax();
-
-var_dump($createdTax->calculateTax(100,19));
+var_dump($createdTax->createTax(100,19));
