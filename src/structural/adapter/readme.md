@@ -7,7 +7,7 @@
 
 
 ```mermaid
-flowchart TB
+flowchart TB;
     Paymob
     subgraph Paymob
     Paytab
