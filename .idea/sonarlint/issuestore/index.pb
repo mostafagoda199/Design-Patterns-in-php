@@ -1,0 +1,47 @@
+
+o
+?src/Behavior/ChainsOfResponsibility/Classes/AbstractHandler.php,9/c/9c65bd436552996deca63229abe07b30e35c4a50
+u
+Esrc/Behavior/ChainsOfResponsibility/Classes/MustBeLoggedInHandler.php,2/b/2b3ab3ebc86d842cc7fce045326a68195291eb50
+[
++src/Behavior/strategy/Interfaces/ICache.php,2/3/23fc6b0062180cdc241b786864098069a2034bc3
+[
++src/Behavior/strategy/Classes/FileCache.php,e/3/e3c8e88f0e1668cb8df0b1e446cbae2f6149e60a
+k
+;src/Behavior/ChainsOfResponsibility/Interfaces/IHandler.php,9/b/9bd0333331e71a99214567ed420197cb86d6d8d3
+s
+Csrc/Creational/FactoryMethod/Classes/Factory/IncludedTaxFactory.php,0/7/075ec0109afffca66e6ac52fd0154174d941d079
+p
+@src/Behavior/ChainsOfResponsibility/Classes/IPCheckerHandler.php,b/f/bf2bc0fafee0f52b57738ea15952e9a7cf3d4ac9
+v
+Fsrc/Behavior/ChainsOfResponsibility/Classes/MustBeAdminUserHandler.php,9/2/9226c21e08bf5e9151faa524342b82c421b3088f
+]
+-src/Behavior/ChainsOfResponsibility/index.php,7/2/723961d391247905896d7d58812c5d671fe02d0a
+V
+&src/Creational/FactoryMethod/readme.md,a/2/a23c53ab24f99e1d3fb43d11fb511a0e557a4c5d
+]
+-src/Behavior/ChainsOfResponsibility/readme.md,2/3/2397a57c473fdf8f6e009e4721281e0e8835dbe3
+O
+src/Behavior/strategy/readme.md,b/d/bd7c3a35a12bcf957512ee557d902d45f5cd91b2
+]
+-src/structural/adapter/interfaces/IPaymob.php,9/b/9b9c15838194296c94af5a11e9af4abe2e129021
+]
+-src/structural/adapter/interfaces/IPaytab.php,6/0/6020ee55bcbed49d6da8067ce073de49269fa563
+Y
+)src/structural/adapter/classes/Paymob.php,c/7/c7a7659ab560eafcb15a81770251fc90847446ed
+Y
+)src/structural/adapter/classes/Paytab.php,3/1/3107a797e483bec8120b744420170e46bcd63801
+V
+&src/Creational/FactoryMethod/index.php,3/a/3a232b29c0eea3665f9e66a5f7d1fbe964fa7eec
+`
+0src/structural/adapter/classes/PaytabAdapter.php,2/6/264282a7d1b8c9a93cb59925311b32e6da32d329
+P
+ src/structural/adapter/index.php,1/d/1d6e454f57cce0fb6375a076fa2497412f7c3c92
+P
+ tests/structural/AdapterTest.php,1/a/1a8119e5cd38fe90fbe558669971241a49ba0b6c
+R
+"src/Creational/singleton/readme.md,1/3/131e1e34663c4a43bf489f26975fdfc1845ddd33
+9
+	Readme.md,0/c/0c1945d7443c2e154bd3e421c0d438bd4086d8c3
+P
+ src/structural/adapter/readme.md,8/f/8f8bdc617c0c0c9f0c78c721823d64477ab0cebe
