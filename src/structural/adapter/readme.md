@@ -11,7 +11,6 @@ _____
 
 ```mermaid
 graph TB;
-Paymob
 subgraph Paymob;
 Paytab
 end
