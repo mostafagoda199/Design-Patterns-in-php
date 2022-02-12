@@ -19,6 +19,7 @@ $mustBeLoggedIn->setNext($ipCheck);
 $ipCheck->setNext($adminCheck);
 try {
     $mustBeLoggedIn->handler($request);
+    var_dump($mustBeLoggedIn);
 } catch (Exception $e) {
     var_dump($e->getMessage());
 }
